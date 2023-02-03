@@ -1,0 +1,24 @@
+Requirement :
+
+1. Versi xampp yang digunakan adalah versi 7.4.29 / PHP 7.4.29
+2. Browser yang digunakan :
+   - Google Chrome version 103.0.5060.134
+   - Mozilla Firefox version 103.0
+   - Microsoft Edge version 103.0.1264.71 
+
+Cara Instalasi :
+
+1. Extract file PKL.zip dan simpan di folder yang diinginkan
+2. Jalankan XAMPP, kemudian buka link http://localhost/phpmyadmin/ pada browser, buat database baru dengan nama company_profile, kemudian import file company_profile.sql 
+3. Buka command prompt, kemudian masuk ke folder tempat file company_profile.zip di extract, misalkan c:\company_profile
+4. Untuk menjalankan aplikasi pada localhost, kita gunakan perintah : php artisan serve pada command prompt, misalkan c:\company_profile\php artisan serve   
+   (pastikan perintah php dapat diakses dari command prompt dengan menambakan lokasi folder php, misalkan c:\xampp\php pada path system variable environment)
+5. Jika berhasil maka akan muncul perintah berikut pada command prompt :
+   Laravel development server started: <http://127.0.0.1:8000>
+   Artinya kita bisa mengakses 127.0.0.1:8000 atau localhost:8000 melalui web browser untuk melihat aplikasi
+
+Navigasi dan link :
+1. Untuk mengakses modul login yaitu dengan cara menambahkan /login pada link : http://127.0.0.1:8000/login
+2. Untuk login gunakan data berikut :
+   username : trisna@gmail.com
+   password : 123
